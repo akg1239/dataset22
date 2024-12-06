@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dataset2
+  name: dataset22
   owner: CNCF
   description: A dataset about shopping trends
   annotations:
