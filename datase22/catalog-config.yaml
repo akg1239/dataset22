@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: dataset-component
+  description: A sample dataset component for demonstration
+  annotations:
+github.com/dataset-url: 'https://github.com/your-org/repository/raw/main/dataset.csv'
+github.com/column-names: '["column1", "column2", "column3", "column4"]'  # Add column names as a JSON string
+spec:
+  owner: team-a
+  type: dataset
