@@ -5,7 +5,7 @@ metadata:
   description: A sample dataset component for demonstration
   annotations:
 github.com/dataset-url: 'https://github.com/akg1239/dataset22/blob/main/datase22/shopping_trends.csv'
-github.com/column-names: '["Customer ID",	"Age","Gender","Item Purchased","Category","Purchase Amount (USD)","Location"]'
+github.com/column-names: '["Customer ID","Age","Gender","Item Purchased","Category","Purchase Amount (USD)","Location"]'
 spec:
   owner: team-a
   type: dataset
