@@ -4,8 +4,8 @@ metadata:
   name: dataset-component
   description: A sample dataset component for demonstration
   annotations:
-github.com/dataset-url: 'https://github.com/your-org/repository/raw/main/dataset.csv'
-github.com/column-names: '["column1", "column2", "column3", "column4"]'  # Add column names as a JSON string
+github.com/dataset-url: 'https://github.com/akg1239/dataset22/blob/main/datase22/shopping_trends.csv'
+github.com/column-names: '["Customer ID",	"Age","Gender","Item Purchased","Category","Purchase Amount (USD)","Location"]'
 spec:
   owner: team-a
   type: dataset
