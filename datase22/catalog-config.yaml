@@ -1,11 +1,16 @@
-apiVersion: backstage.io/v1beta1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dataset22
-  description: A sample dataset component for demonstration
+  name: dataset2
+  owner: CNCF
+  description: A dataset about shopping trends
   annotations:
-github.com/dataset-url: 'https://github.com/akg1239/dataset22/blob/main/datase22/shopping_trends.csv'
-github.com/column-names: '["Customer ID","Age","Gender","Item Purchased","Category","Purchase Amount (USD)","Location"]'
+    github.com/dataset-url: 'https://github.com/akg1239/dataset22/blob/main/datase22/shopping_trends.csv'
+    github.com/column-names: '["column1", "column2", "column3", "column4"]' 
+  tags:
+    - flask
+    - hello-world
 spec:
-  owner: team-a
-  type: dataset
+  type: rest
+  lifecycle: experimental
+  owner: CNCF
