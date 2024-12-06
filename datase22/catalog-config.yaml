@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1beta1
 kind: Component
 metadata:
-  name: dataset-component
+  name: dataset22
   description: A sample dataset component for demonstration
   annotations:
 github.com/dataset-url: 'https://github.com/akg1239/dataset22/blob/main/datase22/shopping_trends.csv'
